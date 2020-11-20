@@ -2,27 +2,34 @@
 li {
     list-style: none;
 }
+body{
+    background-color: black;
+}
 
 header{
     height:100px;
     /* border-bottom:1px solid #777; */
     border: 5px solid black;
+    background-color:  whitesmoke;
     
 }
 
 main{
 
-    background-color: white;
+    background-color: black;
 }
 .video{
-    position: relative;
-    left: 200px;
+     position: relative; 
+     left: -100px; 
+   
+
+    
 }
 
 .boxynews{
 
-    background-color: rgb(209, 209, 209);
-    
+    /* background-color: rgb(209, 209, 209); */
+    background-color: rgb(175, 175, 175);
     
    position: relative;
  
@@ -39,53 +46,61 @@ main{
     width: 1000px;
     justify-content: center;
     height: 800px;
+    color: rgb(179, 248, 69);
    /* width: 1024px; */
     
 }
 
 .boxnews1{
     cursor: pointer;
-    background-color: whitesmoke;
+    background-color: black;
     margin: 60px 10px;
     height: 350px;
-    border: 1px solid gray;
+
+    border: 2px solid black;
 
 }
 
 .boxnews2{
     cursor: pointer;
-    background-color: blue;
+    background-color: black;
     margin: 60px 10px;
     height: 350px;
+    border: 2px solid black;
 }
 
 .boxnews3{
     cursor: pointer;
-    background-color: blue;
+    background-color:  black;
     margin: 60px 10px;
     height: 350px;
+    border: 2px solid black;
 }
 .boxnews4{
     
     cursor: pointer;
-    background-color: blue;
+    background-color:  black;
     margin: 60px 10px;
     height: 350px;
+    border: 2px solid black;
 }
+
 .boxnews5{
     
     cursor: pointer;
-    background-color: blue;
+    background-color:  black;
     margin: 60px 10px;
     height: 350px;
+    border: 2px solid black;
 }
 
 .boxnews6{
     
     cursor: pointer;
-    background-color: blue;
+    background-color: black;
     margin: 60px 10px;
     height: 350px;
+    border: 2px solid black;
 }
 
 
@@ -93,7 +108,8 @@ main{
 
 
 footer{
-    background: rgb(0,18,83);
+    /* background: rgb(0,18,83); */
+    background-color: black;
     padding: 30px 0;
     height: 400px;
 
@@ -113,9 +129,10 @@ nav {
 }
 .logo{
  
-    position: absolute;
+    /* position: absolute; */
     left: 0px;
-    font-size: 30px;
+    text-align: center;
+    font-size: 45px;
 }
 
 .menu{
@@ -211,10 +228,12 @@ nav {
 .slogun{
     font-size: 25px;
     text-align: center;
+    color: black;
 }
 .letter{
     text-align: center;
     font-size: 15px;
+    color: rgba(0, 0, 0, 0.758);
 }
 
 .boxy{
@@ -226,21 +245,24 @@ nav {
 }
 
 .boxyone{
-    background-color: blue;
+    background-color: red;
     color:white;
+    font-size: 20px;
     width: 300px;
     height: 200px;
 }
 .boxytwo{
-    background-color: black;
+    background-color: blue;
     color:white;
+    font-size: 20px;
     width: 300px;
     height: 200px;
 }
 
 .boxythree{
-    background-color: skyblue;
+    background-color: green;
     color:white;
+    font-size: 20px;
     width: 300px;
     height: 200px;
 }
@@ -252,7 +274,7 @@ nav {
     flex-direction: column;
     justify-content: center;
     margin: 60px;
-    color: black;
+    color: whitesmoke;
     /* border-bottom: 1px gray solid ; */
 }
 
@@ -264,6 +286,6 @@ nav {
     border-bottom: 1px gray solid ;
 }
 span{
-    color:gray;
+    color:rgb(179, 248, 69);
     
 }
